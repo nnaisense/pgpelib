@@ -1,0 +1,17 @@
+# ignore everything starting with dot
+.*
+
+# ...except for .gitignore and .gitattributes
+!/.gitignore
+!/.gitattributes
+
+# PyPi
+pgpelib.egg-info
+
+# python interpreter
+*.pyc
+__pycache__
+
+# ignore the untitled notebooks
+Untitled*.ipynb
+
